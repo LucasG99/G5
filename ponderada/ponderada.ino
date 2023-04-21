@@ -3,7 +3,7 @@
 void setup() {
 
 }
-//Deixa esse ou substitui?
+
 void loop() {  
     
     String nome;
@@ -14,7 +14,10 @@ void loop() {
 
 
 
-//Joao
+
+
+
+//Joao ultima parte
   void loop(){
     if (altura>= 1.80){
       Serial.println("Você é alto.");
