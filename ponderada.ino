@@ -5,6 +5,7 @@ void setup() {
 }
 
 void loop() {
+    // Trecho feito por Lucas Galvão
     // Entrada de dados do usuário
     String nome;
     Serial.print("Digite o seu nome: ");
