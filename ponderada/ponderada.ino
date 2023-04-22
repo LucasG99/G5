@@ -13,7 +13,16 @@ void loop() {
     nome.trim(); // Remove os caracteres de quebra de linha }
 
 
-
+ // Condições if e if-else aninhadas
+    if (idade >= 18) {
+        if (temFilhos) {
+            Serial.println("Você é maior de idade e tem filhos.");
+        } else {
+            Serial.println("Você é maior de idade, mas não tem filhos.");
+        }
+    } else {
+        Serial.println("Você é menor de idade.");
+    }
 
 
 
